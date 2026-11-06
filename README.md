@@ -13,6 +13,7 @@ Sitio estático para leer texto de imágenes de una credencial para votar INE. E
 ## Privacidad
 
 - La imagen y el texto reconocido se procesan en el navegador; la app no tiene backend ni guarda esos datos.
+- En celular, marca el consentimiento y toca **Tomar foto con la cámara del celular**. El navegador solicitará permiso al abrir la cámara trasera; el marco adapta la captura a la proporción de la credencial. Para usar la cámara, abre el sitio publicado por HTTPS.
 - Para cargar la biblioteca OCR y las fuentes se requiere conexión a Internet. El navegador descarga Tesseract.js desde jsDelivr y las fuentes desde Google Fonts; la imagen de la INE no se envía a esos servicios.
 - GitHub Pages sirve el código públicamente. No incluyas fotos reales de identificaciones en este repositorio.
 - El OCR puede equivocarse. Revisa cada campo antes de usarlo.
